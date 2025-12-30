@@ -1,10 +1,10 @@
 #!/bin/bash
 
-DISCORD_KEY=
-OPENAI_API_KEY=
+#DISCORD_KEY=
+#OPENAI_API_KEY=
 
-docker container stop delaney || true
-docker container rm delaney || true
+docker container stop eldrida || true
+docker container rm eldrida || true
 
 VERSION=$1
 
